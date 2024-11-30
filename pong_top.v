@@ -1,13 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Reference book: "FPGA Prototyping by Verilog Examples"
-//                      "Xilinx Spartan-3 Version"
-// Written by: Dr. Pong P. Chu
-// Published by: Wiley, 2008
-//
-// Adapted for Basys 3 by David J. Marion aka FPGA Dude
-//
-//////////////////////////////////////////////////////////////////////////////////
+
 
 module pong_top(
     input clk,              // 100MHz
