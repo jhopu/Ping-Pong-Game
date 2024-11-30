@@ -1,22 +1,4 @@
-// *************************************************************
-// Created by David J. Marion aka FPGA Dude
-// A ROM containing patterns for ASCII values.
-//
-// Non-printable characters 00 - 1f, and 7f
-// Printable characters 20 - 7e
-//
-// Not all character ROMs have been patterned.
-// Only numbers, capital letters, some spec chars. 
-//		Numbers 30 - 39
-//   	Letters 41 - 5a 
-//		(space) 20
-//		   .    2e
-// 		   :    3a
-//		   |	7c	
-//
-// The 7-bit ASCII code for each character is used as
-// the MSB of the address. The 4-bit LSB is the row value.
-// *************************************************************
+
 
 module ascii_rom(
 	input clk, 
